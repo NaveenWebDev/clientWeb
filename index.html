@@ -1,56 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="main.css" />
+    <script src="./js/index.js" defer></script>
+  </head>
+  <body>
     <div class="overflow-x-hidden">
-        <header class="header lg:h-[110vh]">
-            <div class="max-w-[1200px] w-[90%] m-auto">
-                <!-- =================================================adding navbar=============================== -->
-                <nav class=" py-4 ">
-                    <h2 class="text-3xl">Logo</h2>
-                </nav>
+      <header class="header lg:h-[110vh]">
+        <div class="max-w-[1200px] w-[90%] m-auto">
+          <!-- =================================================adding navbar=============================== -->
+          <nav class="py-4">
+            <h2 class="text-3xl">Logo</h2>
+          </nav>
 
-                <!-- ==============================main section=========================================== -->
-                <main>
-                    <div class="flexmain flex flex-col lg:flex-row">
+          <!-- ==============================main section=========================================== -->
+          <main>
+            <div class="flexmain flex flex-col lg:flex-row">
+              <div
+                class="mainContent w-full lg:w-[50%] py-5 md:py-5 flex flex-col justify-center"
+              >
+                <h1 class="text-white font-semibold text-5xl leading-snug">
+                  We Are A Leading Private Label Cosmetics Manufacturer
+                </h1>
+                <p class="text-white text-[1.2rem] font-extralight">
+                  At Palmist, we’re not just another company that pushes the
+                  existing formulations. We recommend and handhold the customers
+                  by suggesting formulations that are new age and have the
+                  capacity to grow in today’s market.
+                </p>
+              </div>
+              <div class="form w-full lg:w-[50%]">
+                <form action="https://formspree.io/f/xqkvkyqq"
+                  method="post"
+                  class="flex flex-col gap-7 items-center py-10 px-10 bg-white mb-6"
+                >
+                  <div class="w-full">
+                    <p class="text-2xl mb-3 font-extralight">
+                      Send us a message. We’d love to hear from you.
+                    </p>
+                    <h3 class="text-3xl">GET A FREE QUOTE</h3>
+                  </div>
 
-                        <div class="mainContent w-full  lg:w-[50%] py-5 md:py-5 flex flex-col justify-center">
-                            <h1 class="text-white font-semibold text-5xl leading-snug">We Are A Leading Private Label Cosmetics Manufacturer</h1>
-                            <p class="text-white text-[1.2rem] font-extralight">At Palmist, we’re not just another company that pushes the existing formulations. We recommend and handhold the customers by suggesting formulations that are new age and have the capacity to grow in today’s market.</p>
-                        </div>
-                        <div class="form w-full lg:w-[50%]">
-                            <form class="flex flex-col gap-7 items-center py-10 px-10 bg-white mb-6">
-                                <div class="w-full">
-                                    <p class="text-2xl mb-3 font-extralight">Send us a message. We’d love to hear from you.</p>
-                                    <h3 class="text-3xl">GET A FREE QUOTE</h3>
-                                </div>
-
-                                <input type="text" placeholder="Enter Your Name" class="w-full outline outline-[#96A0A9] outline-1 p-3 rounded-3xl">
-                                <select name="services" class="w-full outline outline-[#96A0A9] outline-1 p-3 rounded-3xl" aria-placeholder="select" >
-                                    <option value="Select Service" class="newtext text-[#96A0A9]" selected disabled >Select Service</option>
-                                    <option value="Contract Manufacturer" class="text-[#96A0A9]">Contract Manufacturer</option>
-                                    <option value="Private Label" class="text-[#96A0A9]">Private Label</option>
-                                    <option value="Cosmetics White Label Manufacturer" class="text-[#96A0A9]">Cosmetics White Label Manufacturer</option>
-                                    <option value="Travel Packs OEM" class="text-[#96A0A9]">Travel Packs OEM</option>
-                                    <option value="Research & Development for new concepts" class="text-[#96A0A9]">Research & Development for new concepts</option>
-                                </select>
-                                <input type="email" placeholder="Enter Your Email Address" name="email" id="email" class="w-full outline outline-[#96A0A9] outline-1 p-3 rounded-3xl">
-                                <input type="number" placeholder="Enter Your Phone Number" name="number" id="number" class="w-full outline outline-[#96A0A9] outline-1 p-3 rounded-3xl">
-                                <input type="submit" value="REQUEST CALLBACK" class="w-full outline outline-[#DF7373] outline-3 p-3 rounded-3xl text-[#DF7373]">
-                            </form>
-                        </div>
-                    </div>
-                </main>
-
-
+                  <input
+                    type="text"
+                    placeholder="Enter Your Name"
+                    class="w-full outline outline-[#96A0A9] outline-1 p-3 rounded-3xl"
+                    name="userName"
+                    id="name"
+                  />
+                  <select
+                    name="services"
+                    class="w-full outline outline-[#96A0A9] outline-1 p-3 rounded-3xl"
+                    aria-placeholder="select"
+                    id="service"
+                  >
+                    <option
+                      value="Select Service"
+                      class="newtext text-[#96A0A9]"
+                      selected
+                      disabled
+                    >
+                      Select Service
+                    </option>
+                    <option
+                      value="Contract Manufacturer"
+                      class="text-[#96A0A9]"
+                    >
+                      Contract Manufacturer
+                    </option>
+                    <option value="Private Label" class="text-[#96A0A9]">
+                      Private Label
+                    </option>
+                    <option
+                      value="Cosmetics White Label Manufacturer"
+                      class="text-[#96A0A9]"
+                    >
+                      Cosmetics White Label Manufacturer
+                    </option>
+                    <option value="Travel Packs OEM" class="text-[#96A0A9]">
+                      Travel Packs OEM
+                    </option>
+                    <option
+                      value="Research & Development for new concepts"
+                      class="text-[#96A0A9]"
+                    >
+                      Research & Development for new concepts
+                    </option>
+                  </select>
+                  <input
+                    type="email"
+                    placeholder="Enter Your Email Address"
+                    name="email"
+                    id="email"
+                    class="w-full outline outline-[#96A0A9] outline-1 p-3 rounded-3xl"
+                  />
+                  <input
+                    type="number"
+                    placeholder="Enter Your Phone Number"
+                    name="number"
+                    id="number"
+                    class="w-full outline outline-[#96A0A9] outline-1 p-3 rounded-3xl"
+                  />
+                  <input
+                    type="submit"
+                    value="REQUEST CALLBACK"
+                    class="w-full outline outline-[#DF7373] outline-3 p-3 rounded-3xl text-[#DF7373]"
+                    id="subBtn"
+                    name="submit"
+                    onclick="sendMail()"
+                  />
+                </form>
+              </div>
             </div>
-        </header>
+          </main>
+        </div>
+      </header>
+
+      <!-- ===================================competitive Advantage section======================================== -->
+
+      <section>
+        <div class="mxa-w-[1200px] w-[90%] m-auto">
+          <div class="mainflex flex py-[8rem] flex-col md:flex-row">
+            <div class="advantageContent w-full md:w-[50%] py-5 pr-5">
+              <p class="text-[#E07A7A]">COMPELLING REASONS TO CHOOSE US</p>
+              <div class="border border-t-slate-300 w-[25%] mt-2"></div>
+              <h2 class="font-bold text-5xl font-normal my-5">Competitive Advantage</h2>
+              <p class="leading-[1.5rem] mb-5">
+                Experience Unmatched Quality and Customization: Your
+                One-Stop-Shop for Innovative, Cruelty-Free, and Expertly
+                Formulated Private Label Cosmetics, Designed to Elevate Your
+                Beauty Brand to New Heights of Success.
+              </p>
+              <p class="my-5"> <span class="text-[#E07A7A] pr-5">&#x27A4;</span>Industry-Leading Expertise</p>
+              <p class="my-5"> <span class="text-[#E07A7A] pr-5">&#x27A4;</span>Bespoke Formulations</p>
+              <p class="my-5"> <span class="text-[#E07A7A] pr-5">&#x27A4;</span>End-to-End Solutions</p>
+              <p class="my-5"> <span class="text-[#E07A7A] pr-5">&#x27A4;</span>Unparalleled Support</p>
+            </div>
+
+            <div class="advantageVideo w-full md:w-[50%] flex items-center">
+                <iframe width="100%" class="object-cover" height="315" src="https://www.youtube.com/embed/2YYlMUliJV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-</body>
+  </body>
 </html>
