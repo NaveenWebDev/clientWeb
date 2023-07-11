@@ -7,3 +7,15 @@
     background-size: cover;
     background-position: center;
 }
+.ChooseUs{
+    background: url(./assest/why\ choose\ section\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.svg{
+    background: url(./assest/download.svg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.747);
+}
