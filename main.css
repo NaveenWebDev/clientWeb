@@ -25,3 +25,8 @@
     outline: none;
     transition: all 0.5s;
 }
+.rotate{
+  rotate: 180deg;
+  transition: all 0.3s;
+}
+
