@@ -50,13 +50,13 @@
                     placeholder="Enter Your Name"
                     class="w-full outline outline-[#96A0A9] outline-1 p-3 rounded-3xl"
                     name="userName"
-                    id="name"
+                    id="name" required
                   />
                   <select
                     name="services"
                     class="w-full outline outline-[#96A0A9] outline-1 p-3 rounded-3xl"
                     aria-placeholder="select"
-                    id="service"
+                    id="service" required
                   >
                     <option
                       value="Select Service"
@@ -97,6 +97,7 @@
                     name="email"
                     id="email"
                     class="w-full outline outline-[#96A0A9] outline-1 p-3 rounded-3xl"
+                    required
                   />
                   <input
                     type="number"
@@ -104,11 +105,12 @@
                     name="number"
                     id="number"
                     class="w-full outline outline-[#96A0A9] outline-1 p-3 rounded-3xl"
+                    required
                   />
                   <input
                     type="submit"
                     value="REQUEST CALLBACK"
-                    class="w-full outline outline-[#DF7373] outline-3 p-3 rounded-3xl text-[#DF7373]"
+                    class="w-full outline outline-[#DF7373] outline-3 p-3 rounded-3xl text-[#DF7373] cursor-pointer"
                     id="subBtn"
                     name="submit"
                     onclick="sendMail()"
@@ -149,6 +151,7 @@
       </section>
 
       <!-- =======================================service section Start============================================= -->
+
       <section class="bg-[#f0f0f1] py-[5rem]">
         <div class="max-w-[1200px] w-[90%] m-auto">
             <div class="sreviceContents text-center flex items-center flex-col">
@@ -381,6 +384,81 @@
 
         </div>
       </section>
+
+      <!-- ======================================Our Factory Section========================================= -->
+
+      <section class="py-[5rem]">
+        <div class="max-w-[1200px] w-[90%] m-auto">
+          <div class="text-center">
+            <h2 class="text-5xl mb-5">Our Factory</h2>
+            <p class="text-slate-500">We’re proud to have a cutting-edge facility that enables us to deliver top-quality products and services</p>
+          </div>
+
+          <div class="flex flex-col gap-8 md:flex-row justify-center mt-14">
+            <div class="text-center md:w-[30%] p-[1rem]">
+              <img src="./assest/factoryImages/world-f.jpg" alt="factory" class="block m-auto" width="100%">
+              <h2 class="text-3xl my-3">World-Class Factory</h2>
+              <p>We take pride in our State of the art facility. Our machinery is top-notch and can produce large batches of products without compromising in quality</p>
+            </div>
+
+            <div class="text-center md:w-[30%] p-[1rem]">
+              <img src="./assest/factoryImages/safe.jpg" alt="factory" class="block m-auto" width="100%">
+              <h2 class="text-3xl my-3">Safe And Hygienic</h2>
+              <p>We produce products that are safe and hygienic. They are untouched by human hands and follow through with several quality checks at various stages</p>
+            </div>
+
+            <div class="text-center md:w-[30%] p-[1rem]">
+              <img src="./assest/factoryImages/scientist-med-suit-working-with-machine.jpg" alt="factory" class="block m-auto" width="100%">
+              <h2 class="text-3xl my-3">Product Development</h2>
+              <p>We take precise measurements and make the perfect product by keeping in check with the quality standards.</p>
+            </div>
+
+            <div class="text-center md:w-[30%] p-[1rem] ">
+              <img src="./assest/factoryImages/Manufacturer.jpg" alt="factory" class="block m-auto" width="100%">
+              <h2 class="text-3xl my-3">Leading Manufacturer</h2>
+              <p>One of the leading manufacturers of cosmetics and products that are used by customers all over the world.</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================Our Certificatoins================================================= -->
+
+      <section>
+        <div class="max-w-[1200px] w-[90%] m-auto">
+
+          <div class="text-center">
+            <h2 class="text-5xl mb-5">Our Certificatoins</h2>
+            <p class="text-slate-500">We’re proud to have a cutting-edge facility that enables us to deliver top-quality products and services</p>
+          </div>
+
+          <div class="flex flex-col gap-8 md:flex-row justify-center mt-10 items-center">
+            <div class="text-center md:w-[30%] p-[1rem]">
+              <img src="./assest/certificates/png-clipart-good-manufacturing-practice-best-practice-quality-gmp-food-text-removebg-preview.png" alt="factory" class="block m-auto" width="100%">
+            </div>
+
+            <div class="text-center md:w-[30%] p-[1rem]">
+              <img src="./assest/certificates/Food_and_Drug_Administration_logo.svg-200x83.png" alt="factory" class="block m-auto" width="100%">
+            </div>
+
+            <div class="text-center md:w-[30%] p-[1rem]">
+              <img src="./assest/certificates/cosmos_ecocert.png" alt="factory" class="block m-auto" width="100%">
+            </div>
+
+            <div class="text-center md:w-[30%] p-[1rem] ">
+              <img src="./assest/certificates/2560px-Conformite_Europeenne_logo.svg-200x143.png" alt="factory" class="block m-auto" width="100%">
+            </div>
+
+            <div class="text-center md:w-[30%] p-[1rem] ">
+              <img src="./assest/certificates/iso-31-logo.png" alt="factory" class="block m-auto" width="100%">
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      
 
     </div>
   </body>
