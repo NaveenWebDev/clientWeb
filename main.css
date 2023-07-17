@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .header{
-    background:url(./assest/backimgae.jpg);
+    background:url(./assest/banner.jpg);
     background-size: cover;
     background-position: center;
 }
