@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .header{
-    background:url(./assest/foundation-bottles-advertising-4-1.jpg);
+    background:url(./assest/backimgae.jpg);
     background-size: cover;
     background-position: center;
 }
